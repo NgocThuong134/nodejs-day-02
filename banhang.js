@@ -79,7 +79,7 @@ listItem.forEach((el, index) => {
   const priceContainer = document.createElement("div");
   priceContainer.style.display = "flex";
   priceContainer.style.alignItems = "center";
-  priceContainer.style.gap = "5px";
+  priceContainer.style.gap = "7px";
   const originalPrice = document.createElement("span");
   originalPrice.innerText = price.toLocaleString("vi-VN", {
     style: "currency",
